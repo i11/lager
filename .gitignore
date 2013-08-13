@@ -1,9 +1,10 @@
 .eunit
 *.beam
-ebin
 doc
 *.swp
 erl_crash.dump
 .project
 log
 deps
+.settings
+target

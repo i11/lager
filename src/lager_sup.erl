@@ -22,6 +22,8 @@
 
 -behaviour(supervisor).
 
+-registered(lager_sup).
+
 %% API
 -export([start_link/0]).
 

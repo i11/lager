@@ -33,6 +33,8 @@
 
 -behaviour(gen_server).
 
+-registered(lager_crash_log).
+
 -ifdef(TEST).
 -include_lib("eunit/include/eunit.hrl").
 -include_lib("kernel/include/file.hrl").

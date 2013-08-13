@@ -22,6 +22,8 @@
 
 -define(LAGER_MD_KEY, '__lager_metadata').
 
+-registered(lager_event).
+
 %% API
 -export([start/0,
         log/3, log/4,
